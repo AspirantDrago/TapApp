@@ -56,4 +56,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/boost" />
 
+    <ImageButton
+        android:id="@+id/btn_login"
+        android:layout_width="95dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

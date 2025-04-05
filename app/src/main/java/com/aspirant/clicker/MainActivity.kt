@@ -48,6 +48,10 @@ class MainActivity : AppCompatActivity() {
             save()
             startActivity(Intent(this, BoostsActivity::class.java))
         }
+        findViewById<ImageButton>(R.id.btn_login).setOnClickListener {
+            save()
+
+        }
     }
 
     private fun add() {
